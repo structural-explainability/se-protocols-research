@@ -1,0 +1,41 @@
+# ============================================================
+# CITATION.cff (How to cite this project)
+# ============================================================
+# REQ.UNIVERSAL: Professional open projects SHOULD include this file.
+# USAGE: See https://citation-file-format.github.io/ for details.
+# check with:
+# uvx cffconvert --validate
+
+cff-version: 1.2.0
+message: "If you use these research protocols, please cite this repository."
+type: software
+
+title: "SE Protocols: Research"
+version: 0.1.0
+date-released: 2026-10-07
+
+authors:
+  - family-names: Case
+    given-names: Denise M.
+    orcid: "https://orcid.org/0000-0001-6165-7389"
+    affiliation: "Northwest Missouri State University, School of Computer Science and Information Systems, Maryville, MO, USA"
+
+repository-code: "https://github.com/structural-explainability/se-protocols-research"
+url: "https://github.com/structural-explainability/se-protocols-research"
+
+license: CC-BY-4.0
+
+abstract: >-
+  Research protocols for Structural Explainability theory development,
+  source analysis, independent review, scientific acceptance, and external
+  review.
+
+keywords:
+  - structural explainability
+  - research protocols
+  - theory construction
+  - source audit
+  - independent review
+  - scientific review
+  - formal theory
+  - agent-assisted research

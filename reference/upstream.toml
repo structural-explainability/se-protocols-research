@@ -1,0 +1,74 @@
+# ============================================================
+# reference/upstream.toml
+# ============================================================
+# WHY: Records external methodological sources that informed
+#      Structural Explainability research protocols.
+# WHY: Pinning commits makes provenance reproducible even when
+#      upstream protocols continue to evolve.
+
+schema_version = "1.0"
+
+[[upstream]]
+name = "BootLoops Research Skills"
+repository = "https://github.com/BootLoops-ai/skills"
+commit = "ca892277dcf0468d995f0036f3bd6d753a8afe7d"
+license = "CC-BY-4.0"
+relationship = "methodological-source"
+
+notes = """
+Structural Explainability research protocols are independent adaptations
+specialized for semantic theory construction, formalization, source auditing,
+and scientific review. They do not adopt BootLoops quantitative acceptance
+criteria wholesale.
+"""
+
+[[upstream.source]]
+path = "skills/acceptance-gate/SKILL.md"
+used_by = ["theory-acceptance"]
+relationship = "adapted-from"
+concepts = [
+    "externally defined completion gate",
+    "checks must be capable of failure",
+    "OPEN is a legitimate outcome",
+]
+
+[[upstream.source]]
+path = "skills/independence-bookkeeping/SKILL.md"
+used_by = ["independent-review"]
+relationship = "adapted-from"
+concepts = [
+    "review independence requires provenance",
+    "independence is not implied by separate implementations or agents",
+]
+
+[[upstream.source]]
+path = "skills/reading-contract/SKILL.md"
+used_by = ["source-audit"]
+relationship = "informed-by"
+concepts = [
+    "source-bounded claims",
+    "distinguishing source content from inference",
+]
+
+[[upstream.source]]
+path = "skills/prove-protocol/SKILL.md"
+used_by = [
+    "theory-construction",
+    "independent-review",
+]
+relationship = "adapted-from"
+concepts = [
+    "adversary-first review",
+    "theory-finding when the statement is not yet known",
+    "forced diversity of review paths",
+]
+
+[[upstream.source]]
+path = "skills/referee-sim/SKILL.md"
+used_by = ["referee-sim"]
+relationship = "adapted-from"
+concepts = [
+    "fresh-context review",
+    "strongest standard objection",
+    "correctness and framing are separate review axes",
+]
