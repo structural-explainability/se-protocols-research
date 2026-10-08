@@ -43,7 +43,7 @@ Avoid beginning with a preferred formal representation.
 
 ### 2. Freeze established background
 
-List only facts already supported by 
+List only facts already supported by
 authoritative theory, source material, or
 prior accepted results.
 
@@ -113,7 +113,7 @@ Use:
 - neutrality tests;
 - comparison with authoritative source language.
 
-A rejection must identify a scientific failure, 
+A rejection must identify a scientific failure,
 not merely the absence of a
 current implementation.
 
@@ -176,7 +176,7 @@ The result is then eligible for the theory-acceptance protocol.
 
 This protocol is informed in part by the adversarial, falsification-oriented,
 and theory-finding workflow in the BootLoops research protocols, especially
-`prove-protocol`, 
+`prove-protocol`,
 but is specialized for semantic and formal theory
 construction in Structural Explainability.
 

@@ -13,7 +13,7 @@ evidence.
 
 ## Core Rule
 
-Independence is a property of the reviewer's information path, 
+Independence is a property of the reviewer's information path,
 not the reviewer's name or model.
 
 Two agents are not independent merely because they are different agents.
@@ -141,8 +141,8 @@ An independent-review pass is complete when:
 ## Sources and Acknowledgments
 
 This protocol is informed by BootLoops' independence-bookkeeping,
-prove-protocol, and referee-simulation practices, 
-especially their emphasis on lineage, fresh contexts, 
+prove-protocol, and referee-simulation practices,
+especially their emphasis on lineage, fresh contexts,
 and adversarial review.
 
 See `reference/upstream.toml` for pinned upstream provenance.

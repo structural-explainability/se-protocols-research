@@ -170,7 +170,7 @@ This protocol is informed by the acceptance-gate discipline used by BootLoops:
 define completion externally, require a check capable of failure, preserve
 honest OPEN outcomes, and distinguish production from certification.
 
-The quantitative BootLoops acceptance criteria are not adopted here; 
+The quantitative BootLoops acceptance criteria are not adopted here;
 this protocol specializes the general discipline for formal and semantic theory.
 
 See `reference/upstream.toml` for pinned upstream provenance.

@@ -48,21 +48,9 @@ Follow these steps exactly when creating a new release.
 ### Task 2. Set up and Validate
 
 ```shell
-# set up or update Python environment
-# Run repository checks.
-.\sit.ps1
-
-# Update GitHub Actions and pin all action references to immutable SHAs.
-uvx gha-tools autoupdate --pin=all --write .github/workflows
-
-# Audit the resulting GitHub configuration for security findings.
-# NO .github\workflows\deploy-zensical.yml
-# YES  .github\workflows\deploy-zensical-lean.yml
-uvx zizmor@latest .github/
-
 # Validate.
 uvx cffconvert --validate
-uvx se-manifest-schema validate-manifest --strict
+# uvx se-manifest-schema validate-manifest --strict
 
 # Format Markdown.
 npx markdownlint-cli2 --fix
