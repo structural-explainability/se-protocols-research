@@ -50,7 +50,7 @@ Follow these steps exactly when creating a new release.
 ```shell
 # Validate.
 uvx cffconvert --validate
-# uvx se-manifest-schema validate-manifest --strict
+uvx se-manifest-schema@latest validate-manifest --strict
 
 # Format Markdown.
 npx markdownlint-cli2 --fix

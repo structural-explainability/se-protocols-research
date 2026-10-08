@@ -1,0 +1,75 @@
+# ============================================================
+# SE_MANIFEST.toml (Repository Declaration)
+# ============================================================
+
+schema = "se-manifest-schema"
+schema_version = "0.5.0"
+schema_url = "https://raw.githubusercontent.com/structural-explainability/se-manifest-schema/main/manifest-schema.toml"
+
+# === Framework Context ===
+
+[meta]
+framework = "Structural Explainability"
+framework_url = "https://github.com/structural-explainability"
+purpose = "Declares this repository's role in the Structural Explainability ecosystem."
+
+# === Repository Identity ===
+
+[repository]
+organization = "structural-explainability"
+name = "se-protocols-research"
+class = "protocols"
+kind = "foundation"
+since = "2026"
+status = "active"
+summary = "Research repository for Structural Explainability protocols."
+
+# === Layer Position ===
+
+[layer]
+role = "research"
+space = "schema"
+
+# === Dependency Declarations ===
+
+[depends]
+optional = []
+required = []
+
+# === Provided Artifacts ===
+
+[provides]
+artifacts = [
+    ".accountability/surfaces.toml",
+    "protocols/independent-review/SKILL.md",
+    "protocols/referee-sim/SKILL.md",
+    "protocols/source-audit/SKILL.md",
+    "protocols/theory-acceptance/SKILL.md",
+    "protocols/theory-construction/SKILL.md",
+]
+
+# === Governance and Authority Surfaces ===
+
+[governance]
+authority_manifest = ".accountability/surfaces.toml"
+
+# === Scope ===
+
+[scope]
+includes = [
+    "protocols for Structural Explainability research",
+]
+
+excludes = [
+]
+
+# === Citation ===
+
+[citation]
+cff = "CITATION.cff"
+preferred = "CITATION.cff"
+
+# === Traceability ===
+
+[traceability]
+identifier_map = "none"
