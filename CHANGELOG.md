@@ -17,7 +17,7 @@ and this project adheres to **[Semantic Versioning](https://semver.org/spec/v2.0
 
 ### Added
 
-- added acheivement and adequacy to theory-acceptance
+- added achievement and adequacy to theory-acceptance
 
 ---
 
