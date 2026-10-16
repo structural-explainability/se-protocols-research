@@ -11,8 +11,8 @@ message: "If you use these research protocols, please cite this repository."
 type: software
 
 title: "SE Protocols: Research"
-version: 0.1.0
-date-released: 2026-10-07
+version: 0.1.1
+date-released: 2026-10-16
 
 authors:
   - family-names: Case

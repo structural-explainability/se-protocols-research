@@ -13,6 +13,14 @@ and this project adheres to **[Semantic Versioning](https://semver.org/spec/v2.0
 
 ---
 
+## [0.1.1] - 2026-10-16
+
+### Added
+
+- added acheivement and adequacy to theory-acceptance
+
+---
+
 ## [0.1.0] - 2026-10-08
 
 ### Added
@@ -83,4 +91,5 @@ git push origin :refs/tags/vX.Z.Y
 ## Links
 
 [Unreleased]: https://github.com/structural-explainability/se-theory-identity-regimes/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/structural-explainability/se-theory-identity-regimes/releases/tag/v0.1.1
 [0.1.0]: https://github.com/structural-explainability/se-theory-identity-regimes/releases/tag/v0.1.0

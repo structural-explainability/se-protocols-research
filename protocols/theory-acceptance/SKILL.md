@@ -22,6 +22,38 @@ rejected or narrowed it.
 
 Plausibility, implementation success, and reviewer confidence are insufficient.
 
+## Three Distinct Achievements
+
+There are three separate achievements:
+
+1. **Mathematical correctness:** The definitions are consistent
+  and the theorems follow from their assumptions.
+2. **Scientific adequacy:** The formal structures actually represent
+  the intended phenomena, with justified assumptions, interpretation conditions,
+  and meaningful counterexamples.
+3. **Theoretical contribution:** The resulting theory establishes
+  substantive claims about persistence, identity, transformation, or
+  explainability that were not merely assumed in its premises.
+
+## Scientific Adequacy Requirement
+
+A theory repository may establish mathematically valid structures
+without establishing the scientific phenomena those structures are intended to represent.
+
+Formal correctness, theorem coverage, successful compilation, and
+consistency with upstream definitions are necessary evidence,
+but are not sufficient grounds for scientific acceptance.
+
+Every substantive scientific claim must have an explicit interpretation,
+justified assumptions, supporting results, and appropriate counterexample analysis.
+
+An unresolved scientific obligation may be delegated to a downstream theory
+only when its ownership, required result, and verification criteria are explicit.
+Delegation does not constitute discharge.
+
+A theory lineage must not be represented as scientifically complete
+while its essential scientific claims remain unestablished.
+
 ## Acceptance Inputs
 
 The acceptance packet should contain:
