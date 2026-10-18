@@ -1,9 +1,10 @@
 ---
 name: theory-acceptance
-description: Decide whether a proposed scientific definition or theory result 
-is mature enough to become canonical theory. 
-Use after theory construction and independent review, 
-before implementation or release is treated as authoritative.
+description: >
+  Decide whether a proposed scientific definition or theory result 
+  is mature enough to become canonical theory. 
+  Use after theory construction and independent review, 
+  before implementation or release is treated as authoritative.
 ---
 
 # Theory Acceptance

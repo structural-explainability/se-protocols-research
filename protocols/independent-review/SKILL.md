@@ -1,9 +1,10 @@
 ---
 name: independent-review
-description: Obtain a genuinely independent adversarial assessment of a scientific claim, 
-candidate definition, proof strategy, or theory decision. 
-Use when agreement from another agent or reviewer is intended to provide 
-evidential value rather than additional brainstorming.
+description: >
+  Obtain a genuinely independent adversarial assessment of a scientific claim,
+  candidate definition, proof strategy, or theory decision.
+  Use when agreement from another agent or reviewer is intended to provide
+  evidential value rather than additional brainstorming.
 ---
 
 # Independent Review

@@ -1,10 +1,11 @@
 ---
 name: source-audit
-description: Determine what existing authoritative sources actually 
-define, require, omit, or leave unresolved. 
-Use before changing theory when the question 
-is whether a semantic claim already exists in papers, 
-specifications, formalizations, registries, or repository artifacts.
+description: >
+  Determine what existing authoritative sources actually 
+  define, require, omit, or leave unresolved. 
+  Use before changing theory when the question 
+  is whether a semantic claim already exists in papers, 
+  specifications, formalizations, registries, or repository artifacts.
 ---
 
 # Source Audit

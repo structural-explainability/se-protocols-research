@@ -1,9 +1,10 @@
 ---
 name: theory-construction
-description: Develop or revise scientific theory when the correct 
-semantics, definitions, or structure are not yet settled. 
-Use when the task is theory-finding rather than 
-proving or implementing an already established statement.
+description: >
+  Develop or revise scientific theory when the correct 
+  semantics, definitions, or structure are not yet settled. 
+  Use when the task is theory-finding rather than 
+  proving or implementing an already established statement.
 ---
 
 # Theory Construction

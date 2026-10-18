@@ -1,11 +1,12 @@
 ---
 name: referee-sim
-description: Simulate strong external review of an SE paper, 
-theory release, specification, or major scientific claim 
-before circulation. 
-Use when the work is internally coherent 
-but needs testing against the objections 
-an informed outside reader is likely to raise.
+description: >
+  Simulate strong external review of an SE paper, 
+  theory release, specification, or major scientific claim 
+  before circulation. 
+  Use when the work is internally coherent 
+  but needs testing against the objections 
+  an informed outside reader is likely to raise.
 ---
 
 # Referee Simulation
